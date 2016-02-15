@@ -1,0 +1,19 @@
+
+{% extends "base.html" %}
+
+{% block title %}KarniPi - Konfiguration{% endblock %}
+
+{% block heading %}KarniPi - Konfiguration{% endblock %}
+
+{% block topnav %}
+{% endblock %}
+
+{% block content %}
+
+{% if app_list %}
+    {% for app in app_list %}
+        <div class="app-{{ app.app_label }} module">
+    {% endfor %}
+{% endif %}
+{% endblock %}
+

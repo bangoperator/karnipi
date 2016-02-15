@@ -1,0 +1,28 @@
+
+{% extends "base.html" %}
+
+{% block title %}KarniPi - Login{% endblock %}
+
+{% block heading %}KarniPi - Login{% endblock %}
+
+
+{% block topnav %}
+{% endblock %}
+
+{% block content %}
+
+<form role="form" id="login_form" method="post" action="/main/login/">
+    {% csrf_token %}
+    <table class="form-table-fullWidth">
+        <tr>
+            <td class="form-td-label">Benutzer</td>
+            <td class="form-td-input"><input type="text" name="username" value="" size="50" /></td>
+        </tr>
+        <tr>
+            <td class="form-td-label">Password</td>
+            <td class="form-td-input"><input type="password" name="password" value="" size="50" /></td>
+        </tr>
+    </table>
+    <input type="submit" value="submit" />
+</form>
+{% endblock %}

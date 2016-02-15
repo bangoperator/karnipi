@@ -1,0 +1,25 @@
+{% load staticfiles %}
+
+<script type='text/javascript' src='http://code.jquery.com/jquery-1.8.2.js'></script>
+
+<link rel="stylesheet" type="text/css" href="{% static 'weather/style.css' %}" />
+
+<div class="container">
+	<h1>{{ terrarium.time}}</h1>
+	{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+	<table>
+		<tr><td>Datum/Zeit</td><td>{{ terrarium.time}}</td></tr>
+		<tr><td>Licht</td><td>{{ terrarium.light}}</td></tr>
+		{% if terrarium.terra_data %}
+		<tr><td>Temperatur</td><td>{{ terrarium.terra_data }}</td></tr>
+		{% else %}
+		<tr><td>Temperatur</td><td>Not found</td></tr>
+		{% endif %}
+		
+		{% for terra_data in terrarium.terra_data_set.all %}
+		<tr><td>foo</td><td>terra_data.light</td></tr>
+		{% endfor %}
+		
+	</table>
+</div>
+

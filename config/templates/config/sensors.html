@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}KarniPi - Sensoren{% endblock %}
+{% block heading %}KarniPi - Sensoren{% endblock %}
+{% block topnav %}
+{% endblock %}
+
+{% block content %}
+
+<table class="table table-striped">
+  <tr>
+  <th>Titel</th><th>Bank</th><th>Wertadresse</th>
+  </tr>
+  {% for sensor in sensors.all %}
+  <tr>
+	<td>{{sensor.title}}</td>
+	<td>{{sensor.bank}}</td>
+	<td>{{sensor.address}}</td>
+  </tr>
+  {%endfor%}
+</table>
+
+<div class="form-group">
+    <form>
+        {% csrf_token %}
+        <input class="btn btn-default navbar-btn" id="btnAddSensor" type="submit" formmethod="get" formaction="{% url 'config:index' %}" value="Sensor anlegen" />
+    </form>
+</div>
+
+{% endblock %}

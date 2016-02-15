@@ -1,0 +1,46 @@
+
+{% extends "base.html" %}
+
+{% block title %}KarniPi - Kamera{% endblock %}
+
+{% block heading %}Kamera{% endblock %}
+{% block topnav %}
+{% endblock %}
+
+{% block content %}
+
+<div class="col-md-12">
+	<div>
+		<script type="text/javascript">
+		$(document).ready(function() {
+			$(".fancybox").fancybox({
+				'transitionIn'	:	'elastic',
+				'transitionOut'	:	'elastic',
+				'speedIn'		:	600,
+				'speedOut'		:	200,
+				'overlayShow'	:	false,
+				'titlePosition' :   'over',
+			});
+		});
+		</script>
+		{% if pictures_today %}
+		{{MEDIA_ROOT}}
+		{% for p in pictures_today %}
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<a class="fancybox" rel="group" href="/media/{{p.source}}" title="{{p.title}}, {{p.taken_on}}">
+			  		<img src="/media/{{ p.thumb }} " alt="NA">
+				</a>
+			  	<div class="caption">
+					<h3>{{p.taken_on}}</h3>
+					<p>Datei: {{p.title}}</p>
+			  	</div>
+			</div>
+		</div>
+		{% endfor %}
+		{%else%}
+		<span>Noch keine Bilder von heute verfügbar...</span>
+		{% endif %}
+	</div>
+</div>
+{% endblock %}

@@ -1,0 +1,39 @@
+
+{% extends "base.html" %}
+
+{% block title %}KarniPi - Jobs{% endblock %}
+
+{% block heading %}KarniPi - Jobs{% endblock %}
+
+{% block topnav %}
+{% endblock %}
+
+{% block content %}
+{% if crons %}
+<table class="table table-striped">
+    <thead>
+        <th>Bezeichnung</th>
+        <th>Minuten</th>
+        <th>Stunden</th>
+        <th>Tage</th>
+        <th>Montate</th>
+    </thead>
+    <tbody>
+        {% for cron in crons %}
+        <tr>
+            <td>{{ cron.comment }}</td>
+            <td>{{cron.minute}}</td>
+            <td>{{cron.hour}}</td>
+            <td>{{cron.day}}</td>
+            <td>{{cron.month}}</td>
+        </tr>
+        {%endfor%}
+    </tbody>
+</table>
+{%endif%}
+<form>
+        {% csrf_token %}
+        <input class="btn btn-default navbar-btn" id="btnAddJob" type="submit" formmethod="get" formaction="{% url 'config:add_Job' %}" value="Job anlegen" />
+        <input class="btn btn-default navbar-btn" id="btnDeleteJob" type="submit" formmethod="get" formaction="{% url 'config:delete_job' %}" value="Job löschen" />
+    </form>
+{% endblock %}

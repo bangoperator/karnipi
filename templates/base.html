@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{% block title %}{% endblock %}</title>
+	{% load staticfiles %}
+	<link rel="stylesheet" href="{% static '/static/weather/style.css' %}" />
+	<script type='text/javascript' src="{% static '/static/weather/jquery.js' %}"></script>
+	<script type='text/javascript' src="{% static '/static/weather/style.js' %}"></script>
+		
+	<link rel="stylesheet" href="{% static '/static/weather/jquery.fancybox.css' %}" type="text/css" media="screen" />
+	<script type="text/javascript" src="{% static '/static/weather/jquery.fancybox.pack.js'%}"></script>
+	
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<style type="text/css">
+		.karnipi-mainnav div button {
+			font-size: 2em;
+			background: none;
+			border:0px solid white;
+		}
+
+		.karnipi-mainnav div button:hover
+		{
+			color:#71B238;
+		}
+	</style>
+</head>
+<body>
+
+<!-- CONTAINER -->
+<div class="container">
+
+	<!-- HEADLINE -->
+	<div class="row">
+        <div class="col-md-2">
+            <img src="{% static '/static/weather/img/karnipi_logo.png' %}" />
+        </div>
+        <div class="col-md-8">
+            <h1>{% block heading %}{% endblock %}</h1>
+
+        </div>
+        <div class="col-md-2">
+            {% if user.is_authenticated %}
+            <h3>Hello {{ user.username }}!</h3>
+            <a href="/main/logout/">Logout</a>
+            {% else %}
+            <h3><a href="/main/login/">Login</a></h3>
+            {% endif %}
+        </div>
+
+    </div>
+	<!-- HEADLINE -->
+	<!-- TOPNAV -->
+	<div class="row">
+		<form>
+			<div class="btn-group btn-group-justified karnipi-mainnav">
+		   		<div class="btn-group">
+					<button type="submit" formaction="{% url 'main:index' %}">
+						HOME
+					</button>
+					<button type="submit" formaction="{% url 'terrarium:index' %}">
+						MESSDATEN
+					</button>
+					<button type="submit" formaction="{% url 'camera:index' %}">
+						KAMERA
+					</button>
+					<button type="submit" formaction="{% url 'config:jobs' %}">
+						JOBS
+					</button>
+					<button type="submit" formaction="{% url 'config:actors' %}">
+						AKTOREN
+					</button>
+					<button type="submit" formaction="{% url 'config:sensors' %}">
+						SENSOREN
+					</button>
+					<button type="submit" formaction="{% url 'maintenance:index' %}">
+						WARTUNG
+					</button>
+				</div>
+			</div>
+		</form>
+	</div>
+	<!-- TOPNAV -->
+	<div class="row">
+		
+		<!-- CONTENT -->
+		<div class="col-md-12">
+		{% block content %}{% endblock %}
+		</div>
+		<!-- CONTENT -->
+	</div>
+</div>
+<!-- CONTAINER -->
+</body>
+</html>

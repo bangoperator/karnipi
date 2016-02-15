@@ -1,0 +1,32 @@
+from main.models import KarniPiLog
+from terrarium.helper import TerrariumHelper
+# from karnipi.i2c_helper import I2CValueAdapter
+
+
+class MainHelper():
+
+    @staticmethod
+    def get_karnipi_log():
+        # doing .objects instead of objects.all()
+        # gives the possibility to sort results
+        return KarniPiLog.objects.all()
+
+    @staticmethod
+    def get_status_overview():
+
+        th = TerrariumHelper()
+        terrarium = th.get_terrarium()
+        heater = th.get_heater(terrarium)
+        light = th.get_light(terrarium)
+        fogger = th.get_fogger(terrarium)
+        sprinkler = th.get_sprinkler(terrarium)
+        fan = th.get_fan(terrarium)
+
+        status = {
+            "heater": heater and heater.state or 0,
+            "light": light and light.state or 0,
+            "fogger": fogger and fogger.state or 0,
+            "sprinkler": sprinkler and sprinkler.state or 0,
+            "fan": fan and fan.state or 0}
+
+        return status

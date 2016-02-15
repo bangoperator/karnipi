@@ -1,0 +1,119 @@
+
+{% extends "base.html" %}
+{% load app_filters %}
+{% block title %}KarniPi - Übersicht{% endblock %}
+
+{% block heading %}Übersicht{% endblock %}
+
+{% block topnav %}
+{% endblock %}
+
+{% block content %}
+
+<style type="text/css">
+    #terrarium_picture
+    {
+        opacity: 0.3;
+    }
+    #terrarium_picture:hover
+    {
+        opacity: 1;
+    }
+    #status_overview > div > span
+    {
+        display:block;
+        font-size: 1em;
+        margin: 10px 5px;
+        font-weight:normal;
+    }
+
+    .circle-active
+    {
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 20px;
+        width: 20px;
+        height: 20px;
+        background: #5CB85C none repeat scroll 0% 0%;
+    }
+
+    .circle-inactive
+    {
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 20px;
+        width: 20px;
+        height: 20px;
+        background: #9E9E9E none repeat scroll 0% 0%;
+    }
+</style>
+<div class="col-md-12">
+    <div class="col-md-3">
+        <div class="panel panel-default">
+            <div class="panel-heading">Temperatur und Luftfeuchte</div>
+            <div class="panel-body">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="{{latest_terrarium_data.humidity}}" aria-valuemin="60" aria-valuemax="100" style="width: {{latest_terrarium_data.humidity}}%">
+                    {{latest_terrarium_data.humidity}} %
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-warning"
+                         role="progressbar"
+                         aria-valuenow="{{latest_terrarium_data.temperature}}"
+                         aria-valuemin="0"
+                         aria-valuemax="35"
+                         style="width: {{latest_terrarium_data.temperature|calc_temp:35}}%">
+                    {{latest_terrarium_data.temperature}} °C
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+                <div class="panel-heading">Gerätestatus</div>
+                <div class="panel-body">
+                    <table class="table">
+                        {% for entry in status_overview %}
+                        <tr>
+                            <td>{{ entry.title }}</td>
+                            <td>
+                                <div class="onoffswitch">
+                                    {% if entry.state == False %}
+                                    <div id="circle1" class="circle-inactive"></div>
+                                    {% else %}
+                                    <div id="circle1" class="circle-active"></div>
+                                    {% endif %}
+                                </div>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </table>
+                </div>
+            </div>
+    </div>
+    <div class="col-md-5">
+        <div class="panel panel-default">
+            <div class="panel-heading">Aktuelle Meldungen</div>
+            <div class="panel-body" style="max-height:450px;">
+                <ul class="list-group">
+                    {% for l in latest_log_data %}
+                    <li class="list-group-item">
+                        <span class="badge">{{ l.type }}</span>
+                        {{ l.message }}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">Letztes Bild</div>
+            <div class="panel-body">
+                <img id="terrarium_picture" src="/media/{{ latest_picture.source }}" width="100%" />
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+

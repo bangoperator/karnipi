@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% block title %}KarniPi - Wartungsmodus{% endblock %}
+{% block heading %}KarniPi - Wartungsmodus{% endblock %}
+{% block topnav %}
+{% endblock %}
+
+{% block content %}
+
+<div class="panel panel-default">
+	 	<div class="panel-heading">Status-Übersicht</div>
+		<div class="panel-body">
+            <table class="table">
+                <tr>
+                    <td>Licht</td>
+                    <td>
+                        {% if status_overview.light %}
+                        <button type="button" class="btn btn-success pull-right">
+                            <span class="glyphicon glyphicon-off"></span>
+                        </button>
+                        {% else %}
+                        <button type="button" class="btn btn-default pull-right">
+                            <span class="glyphicon glyphicon-off"></span>
+                        </button>
+                        {% endif %}
+                    </td>
+                </tr>
+                <tr>
+                    <td>Heizung</td>
+                    <td>
+                        {% if status_overview.heater %}
+                        <button type="button" class="btn btn-success pull-right">
+                            <span class="glyphicon glyphicon-off"></span>
+                        </button>
+                        {% else %}
+                        <button type="button" class="btn btn-default pull-right">
+                            <span class="glyphicon glyphicon-off"></span>
+                        </button>
+                        {% endif %}
+                    </td>
+                </tr>
+                <tr>
+                    <td>Vernebler</td>
+                    <td>
+                        {% if status_overview.fogger %}
+                        <button type="button" class="btn btn-success pull-right">
+                            <span class="glyphicon glyphicon-off"></span>
+                        </button>
+                        {% else %}
+                        <button type="button" class="btn btn-default pull-right">
+                            <span class="glyphicon glyphicon-off"></span>
+                        </button>
+                        {% endif %}
+                    </td>
+                </tr>
+                <tr>
+                    <td>Beregnung</td>
+                    <td>
+                        {% if status_overview.sprinkler %}
+                        <button type="button" class="btn btn-success pull-right">
+                            <span class="glyphicon glyphicon-off"></span>
+                        </button>
+                        {% else %}
+                        <button type="button" class="btn btn-default pull-right">
+                            <span class="glyphicon glyphicon-off"></span>
+                        </button>
+                        {% endif %}
+                    </td>
+                </tr>
+            </table>
+	  	</div>
+	</div>
+
+<div class="form-group">
+    <form>
+        {% csrf_token %}
+        <input class="btn btn-default navbar-btn" id="btnAddSensor" type="submit" formmethod="get" formaction="{% url 'config:index' %}" value="Sensor anlegen" />
+    </form>
+</div>
+
+{% endblock %}

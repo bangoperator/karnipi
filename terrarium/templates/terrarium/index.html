@@ -1,0 +1,65 @@
+
+{% extends "base.html" %}
+{% load app_filters %}
+{% block title %}KarniPi - Messdaten{% endblock %}
+{% block heading %}Messdaten{% endblock %}
+{% block topnav %}
+<li><input class="btn btn-default navbar-btn" id="btnGetTerraData" type="submit" formaction="{% url 'terrarium:getdata' %}" value="Terrariumdaten abfragen" /></li>
+<li><input class="btn btn-default navbar-btn" id="btnDeleteTerraLog" type="submit" formaction="{% url 'terrarium:deletedata' %}" value="Terrariumlog löschen" /></li>
+{% endblock %}
+
+{% block content %}
+<script type="text/javascript">
+$(document).ready(function() {
+  $('table.highchart').highchartTable();
+});
+</script>
+<style type="text/css">
+	.progress {
+		margin-bottom:0px;
+	}
+</style>
+<div class="col-md-12">
+	{% if latest_terrarium_log %}
+	<table id="tblTerrariumData" class="table table-striped">
+      <thead>
+		<tr>
+			<th>Zeit</th>
+        	<th>Temperatur</th>
+        	<th>Luftfeuchtigkeit</th>
+	    </tr>
+        </thead>
+        <tbody>
+	    {% for terrarium_log in latest_terrarium_log %}
+	        <tr>
+	        	<td>
+				{{ terrarium_log.time|time:"H:i" }} Uhr
+				</td>
+	        	<td>
+					<div class="progress">
+						<div class="progress-bar progress-bar-warning"
+							 role="progressbar"
+							 aria-valuenow="{{terrarium_log.temperature}}"
+							 aria-valuemin="0"
+							 aria-valuemax="35"
+							 style="width: {{terrarium_log.temperature|calc_temp:35}}%">
+							{{terrarium_log.temperature}} °C
+						</div>
+                	</div>
+				</td>
+	        	<td>
+					<div class="progress">
+						<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="{{terrarium_log.humidity}}" aria-valuemin="60" aria-valuemax="100" style="width: {{terrarium_log.humidity}}%">
+						{{terrarium_log.humidity}} %
+						</div>
+                	</div>
+				</td>
+			</tr>
+	    {% endfor %}
+      </tbody>
+	</table>
+	{% else %}
+	<div class="alert alert-info">Keine Terrariumdaten im Log...</div>
+	{% endif %}
+</div>
+{% endblock %}

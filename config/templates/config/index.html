@@ -1,0 +1,144 @@
+
+{% extends "base.html" %}
+
+{% block title %}KarniPi - Konfiguration{% endblock %}
+
+{% block heading %}Konfiguration{% endblock %}
+{% block topnav %}
+{% endblock %}
+
+{% block content %}
+<style ty="text/css">
+    .fixed-panel
+    {
+        height: 100%;
+        width: 100%;
+    }
+    .fixed-panel .panel-heading, .fixed-panel .panel-body
+    {
+        text-align:center;
+    }
+    .fixed-panel .panel-body span.glyphicon {
+        font-size: 4em;
+    }
+
+</style>
+<div class="col-md-12">
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">Terrarium</div>
+            <div class="panel-body">
+                <ul class="list-group">
+                    {% if terrarium %}
+                    <li class="list-group-item">
+                        <b>Titel:</b> {{ terrarium.title }}</a>
+                    </li>
+                    <li class="list-group-item">
+                        <b>Minimal-Temperatur:</b> {{ terrarium.temperature_min }} °C
+                    </li>
+                    <li class="list-group-item">
+                        <b>Maximal-Temperatur:</b> {{ terrarium.temperature_max }} °C
+                    </li>
+                    <li class="list-group-item">
+                        <b>Sonnenaufgang:</b> {{ terrarium.sunrise }} Uhr
+                    </li>
+                    <li class="list-group-item">
+                        <b>Sonnenuntergang:</b> {{ terrarium.sunset }} Uhr
+                    </li>
+                    {% else %}
+                    <div class="alert alert-danger" role="alert">
+                        Aktuell ist kein Terrarium hinterlegt...
+                    </div>
+                    {% endif %}
+                </ul>
+                <form>
+                    {% csrf_token %}
+                    {% if terrarium %}
+                    <input class="btn btn-default navbar-btn" id="btnDeleteTerrarium" type="submit" formmethod="get" formaction="{% url 'config:delete_Terrarium' %}" value="Terrarium löschen" />
+                    {% else %}
+                    <input class="btn btn-default navbar-btn" id="btnAddTerrarium" type="submit" formmethod="get" formaction="{% url 'config:add_Terrarium' %}" value="Terrarium anlegen" />
+                    {% endif %}
+                </form>
+            </div>
+        </div>
+	<div class="panel panel-default">
+	    <div class="panel-heading">
+	    System
+	    </div>
+	    <div class="panel-body">
+		<div id="piechart"></div>
+	    </div>
+    	</div>
+    </div>
+    <div class="col-md-8">
+        <div class="col-md-4">
+            <a href="{% url 'config:jobs' %}" style="color:#333;">
+                <div class="panel panel-default fixed-panel">
+                    <div class="panel-heading">Jobs</div>
+                    <div class="panel-body">
+                        <span class="glyphicon glyphicon-briefcase"></span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="{% url 'config:actors' %}" style="color:#333;">
+                <div class="panel panel-default fixed-panel">
+                    <div class="panel-heading">Aktoren</div>
+                    <div class="panel-body">
+                        <span class="glyphicon glyphicon-tint"></span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="{% url 'config:sensors' %}" style="color:#333;">
+                <div class="panel panel-default fixed-panel">
+                    <div class="panel-heading">Sensoren</div>
+                    <div class="panel-body">
+                        <span class="glyphicon glyphicon-dashboard"></span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="{% url 'maintenance:index' %}" style="color:#333;">
+                <div class="panel panel-default fixed-panel">
+                    <div class="panel-heading">Wartungsmodus</div>
+                    <div class="panel-body">
+                        <span class="glyphicon glyphicon-wrench"></span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Description', 'Size'],
+          ['Used', {{disk_space_usage}} ],
+          ['Free', {{disk_space_free}} ],
+        ]);
+
+        var options = {
+          title: 'Speicherauslastung',
+	  legend: {position: 'bottom'},
+	  slices: {
+            0: { color: 'gray' },
+            1: { color: 'green' }
+          }
+
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+      }
+</script>
+
+{% endblock %}

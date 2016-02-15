@@ -1,0 +1,27 @@
+
+{% extends "base.html" %}
+
+{% block title %}KarniPi - Vernebler hinzufügen{% endblock %}
+
+{% block heading %}KarniPi - Vernebler hinzufügen{% endblock %}
+
+{% block topnav %}
+{% endblock %}
+
+{% block content %}
+<form role="form" action='/config/add_fogger.html' method='post'> {% csrf_token %}
+	<table class="form-table-fullWidth">
+		{% for field in form %}
+		<tr>
+			<td class="form-td-label">{{ field.label_tag }}</td>
+		</tr>
+		<tr>
+			<td class="form-td-input">{{ field }}</td>
+		</tr>
+		{% endfor %}
+	</table>
+	<input type='submit' class="btn btn-default" value='Hinzufügen' />
+</form>
+
+
+{% endblock %}

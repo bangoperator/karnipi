@@ -1,0 +1,16 @@
+
+{% extends "base.html" %}
+
+{% block title %}KarniPi - Job löschen{% endblock %}
+
+{% block heading %}KarniPi - Job löschen{% endblock %}
+
+{% block topnav %}
+{% endblock %}
+
+{% block content %}
+<form action='/config/delete_Job.html' method='post'> {% csrf_token %}
+{{ form }}
+<input type='submit' value='Submit' />
+</form>
+{% endblock %}

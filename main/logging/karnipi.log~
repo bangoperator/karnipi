@@ -1,0 +1,249 @@
+INFO:root:2015-03-24 19:18:56.707732 | Init control...
+INFO:root:2015-03-24 19:18:56.710880 | Checking for exit code...0
+
+INFO:root:2015-03-24 19:18:56.713007 | Staring next cycle...
+INFO:root:2015-03-24 19:18:56.763577 | Getting terrarium data...
+INFO:root:2015-03-24 19:18:56.788683 | Accessing heater...
+INFO:root:2015-03-24 19:18:56.832046 | Terrarium: 19 C
+INFO:root:2015-03-24 19:18:56.834307 | Ziel-Temperatur: 24 C
+INFO:root:2015-03-24 19:18:56.836192 | Action is 'heating'
+INFO:root:2015-03-24 19:18:56.852241 | Current state is 3 (00000011)
+INFO:root:2015-03-24 19:18:56.855296 | 00000011
+INFO:root:2015-03-24 19:18:56.857670 | 00000011
+INFO:root:2015-03-24 19:18:56.860121 | Idling for 10 minutes
+INFO:root:2015-03-24 19:23:56.867638 | Checking for exit code...0
+
+INFO:root:2015-03-24 19:23:56.869694 | Staring next cycle...
+INFO:root:2015-03-24 19:23:56.883846 | Getting terrarium data...
+INFO:root:2015-03-24 19:23:56.924376 | Accessing heater...
+INFO:root:2015-03-24 19:23:56.950441 | Terrarium: 19 C
+INFO:root:2015-03-24 19:23:56.952665 | Ziel-Temperatur: 24 C
+INFO:root:2015-03-24 19:23:56.954586 | Action is 'heating'
+INFO:root:2015-03-24 19:23:56.968584 | Current state is 3 (00000011)
+INFO:root:2015-03-24 19:23:56.971417 | 00000011
+INFO:root:2015-03-24 19:23:56.974030 | 00000011
+INFO:root:2015-03-24 19:23:56.976487 | Idling for 10 minutes
+INFO:root:2015-03-24 19:28:56.983453 | Checking for exit code...0
+
+INFO:root:2015-03-24 19:28:56.985627 | Staring next cycle...
+INFO:root:2015-03-24 19:28:56.999517 | Getting terrarium data...
+INFO:root:2015-03-24 19:28:57.042209 | Accessing heater...
+INFO:root:2015-03-24 19:28:57.068414 | Terrarium: 19 C
+INFO:root:2015-03-24 19:28:57.070511 | Ziel-Temperatur: 24 C
+INFO:root:2015-03-24 19:28:57.072612 | Action is 'heating'
+INFO:root:2015-03-24 19:28:57.086598 | Current state is 3 (00000011)
+INFO:root:2015-03-24 19:28:57.089432 | 00000011
+INFO:root:2015-03-24 19:28:57.091813 | 00000011
+INFO:root:2015-03-24 19:28:57.094516 | Idling for 10 minutes
+INFO:root:2015-03-24 19:33:57.197238 | Checking for exit code...0
+
+INFO:root:2015-03-24 19:33:57.199400 | Staring next cycle...
+INFO:root:2015-03-24 19:33:57.213318 | Getting terrarium data...
+INFO:root:2015-03-24 19:33:57.256164 | Accessing heater...
+INFO:root:2015-03-24 19:33:57.284158 | Terrarium: 19 C
+INFO:root:2015-03-24 19:33:57.286384 | Ziel-Temperatur: 24 C
+INFO:root:2015-03-24 19:33:57.288280 | Action is 'heating'
+INFO:root:2015-03-24 19:33:57.302237 | Current state is 3 (00000011)
+INFO:root:2015-03-24 19:33:57.305145 | 00000011
+INFO:root:2015-03-24 19:33:57.307509 | 00000011
+INFO:root:2015-03-24 19:33:57.310286 | Idling for 10 minutes
+INFO:root:2015-03-24 19:38:57.412975 | Checking for exit code...0
+
+INFO:root:2015-03-24 19:38:57.415018 | Staring next cycle...
+INFO:root:2015-03-24 19:38:57.428906 | Getting terrarium data...
+INFO:root:2015-03-24 19:38:57.471317 | Accessing heater...
+INFO:root:2015-03-24 19:38:57.497698 | Terrarium: 19 C
+INFO:root:2015-03-24 19:38:57.499916 | Ziel-Temperatur: 24 C
+INFO:root:2015-03-24 19:38:57.501834 | Action is 'heating'
+INFO:root:2015-03-24 19:38:57.515984 | Current state is 3 (00000011)
+INFO:root:2015-03-24 19:38:57.518723 | 00000011
+INFO:root:2015-03-24 19:38:57.521089 | 00000011
+INFO:root:2015-03-24 19:38:57.523708 | Idling for 10 minutes
+INFO:root:2015-03-24 19:43:57.626518 | Checking for exit code...0
+
+INFO:root:2015-03-24 19:43:57.628582 | Staring next cycle...
+INFO:root:2015-03-24 19:43:57.642670 | Getting terrarium data...
+INFO:root:2015-03-24 19:43:57.693757 | Accessing heater...
+INFO:root:2015-03-24 19:43:57.719962 | Terrarium: 19 C
+INFO:root:2015-03-24 19:43:57.722187 | Ziel-Temperatur: 24 C
+INFO:root:2015-03-24 19:43:57.724240 | Action is 'heating'
+INFO:root:2015-03-24 19:43:57.738297 | Current state is 3 (00000011)
+INFO:root:2015-03-24 19:43:57.741023 | 00000011
+INFO:root:2015-03-24 19:43:57.743575 | 00000011
+INFO:root:2015-03-24 19:43:57.746150 | Idling for 10 minutes
+INFO:root:2015-03-24 19:48:57.848834 | Checking for exit code...1
+
+INFO:root:2015-03-24 19:48:57.850900 | Exiting due to exit code...
+INFO:root:2015-03-24 20:01:05.197335 | Current state is 2 (00000010)
+INFO:root:2015-03-24 20:01:05.229783 | 00000000
+INFO:root:2015-03-24 20:01:05.232163 | 00000000
+INFO:root:2015-03-26 18:13:18.799761 | Current state is 0 (00000000)
+INFO:root:2015-03-26 18:13:18.804948 | 00000010
+INFO:root:2015-03-26 18:13:18.807370 | 00000010
+INFO:root:2015-03-26 18:13:53.050876 | Init control...
+INFO:root:2015-03-26 18:13:53.055304 | Checking for exit code...1
+
+INFO:root:2015-03-26 18:13:53.057294 | Exiting due to exit code...
+INFO:root:2015-03-26 18:15:48.282402 | Init control...
+INFO:root:2015-03-26 18:15:48.285510 | Checking for exit code...0
+
+INFO:root:2015-03-26 18:15:48.287499 | Staring next cycle...
+INFO:root:2015-03-26 18:15:48.681274 | Getting terrarium data...
+INFO:root:2015-03-26 18:15:48.720152 | Idling for 10 minutes
+INFO:root:2015-03-26 18:22:57.474752 | Init control...
+INFO:root:2015-03-26 18:22:57.477981 | Checking for exit code...0
+
+INFO:root:2015-03-26 18:22:57.480246 | Staring next cycle...
+INFO:root:2015-03-26 18:22:57.873270 | Getting terrarium data...
+INFO:root:2015-03-26 18:22:57.912258 | Accessing heater...
+INFO:root:2015-03-26 18:22:57.969661 | Terrarium: 18 C
+INFO:root:2015-03-26 18:22:57.973138 | Ziel-Temperatur: 25 C
+INFO:root:2015-03-26 18:22:57.975065 | Action is 'heating'
+INFO:root:2015-03-26 18:22:57.996287 | Current state is 2 (00000010)
+INFO:root:2015-03-26 18:22:57.999335 | 00000011
+INFO:root:2015-03-26 18:22:58.001780 | 00000011
+INFO:root:2015-03-26 18:22:58.004307 | Heating...
+INFO:root:2015-03-26 18:22:58.006291 | Idling for 10 minutes
+INFO:root:2015-03-26 18:27:58.090524 | Checking for exit code...1
+INFO:root:2015-03-26 18:27:58.092547 | Exiting due to exit code...
+INFO:root:2015-03-26 18:30:07.704405 | Current state is 3 (00000011)
+INFO:root:2015-03-26 18:30:07.707550 | 00001011
+INFO:root:2015-03-26 18:30:07.710281 | 00001011
+INFO:root:2015-03-26 18:33:07.848450 | Current state is 17 (00010001)
+INFO:root:2015-03-26 18:33:07.851461 | 00010001
+INFO:root:2015-03-26 18:33:07.853805 | 00010001
+INFO:root:2015-03-26 19:05:15.705781 | Current state is 0 (00000000)
+INFO:root:2015-03-26 19:06:31.374732 | Current state is 0 (00000000)
+INFO:root:2015-03-26 19:06:49.990272 | Current state is 2 (00000010)
+INFO:root:2015-03-26 19:09:50.100396 | Current state is 16 (00010000)
+INFO:root:2015-03-26 19:19:37.336257 | Current state is 2 (00000010)
+INFO:root:2015-03-26 19:20:06.427262 | Current state is 2 (00000010)
+INFO:root:2015-03-26 19:21:06.520149 | Current state is 16 (00010000)
+INFO:root:2015-03-26 19:23:41.417598 | Current state is 2 (00000010)
+INFO:root:2015-03-26 19:24:01.521429 | Current state is 16 (00010000)
+INFO:root:2015-03-26 19:28:44.348472 | Current state is 2 (00000010)
+INFO:root:2015-03-26 19:29:04.421075 | Current state is 16 (00010000)
+INFO:root:2015-03-26 19:30:15.549570 | Current state is 2 (00000010)
+INFO:root:2015-03-26 19:30:52.735644 | Current state is 2 (00000010)
+INFO:root:2015-03-26 19:31:42.690491 | Current state is 16 (00010000)
+INFO:root:2015-03-26 19:32:02.742807 | Current state is 16 (00010000)
+INFO:root:2015-03-26 19:33:05.704687 | Current state is 2 (00000010)
+INFO:root:2015-03-26 19:33:25.781847 | Current state is 16 (00010000)
+INFO:root:2015-03-26 19:34:13.898086 | Current state is 3 (00000011)
+INFO:root:2015-03-26 19:34:33.974704 | Current state is 17 (00010001)
+INFO:root:2015-03-26 19:37:45.511826 | Init control...
+INFO:root:2015-03-26 19:37:45.514976 | Checking for exit code...1
+INFO:root:2015-03-26 19:37:45.516958 | Exiting due to exit code...
+INFO:root:2015-03-26 19:38:47.257889 | Init control...
+INFO:root:2015-03-26 19:38:47.271390 | Checking for exit code...0
+INFO:root:2015-03-26 19:38:47.273400 | Staring next cycle...
+INFO:root:2015-03-26 19:38:48.140104 | Getting terrarium data...
+INFO:root:2015-03-26 19:38:48.231990 | Accessing heater...
+INFO:root:2015-03-26 19:38:48.364535 | Terrarium: 18 C
+INFO:root:2015-03-26 19:38:48.366643 | Ziel-Temperatur: 25 C
+INFO:root:2015-03-26 19:38:48.370336 | Action is 'heating'
+INFO:root:2015-03-26 19:38:48.426568 | Current state is 3
+INFO:root:2015-03-26 19:38:48.449257 | Heating...
+INFO:root:2015-03-26 19:38:48.451255 | Idling for 10 minutes
+INFO:root:2015-03-26 20:00:07.244464 | Current state is 2
+INFO:root:2015-03-27 09:10:54.244399 | Current state is 0
+INFO:root:2015-03-27 10:24:19.266854 | Init control...
+INFO:root:2015-03-27 10:24:19.270089 | Checking for exit code...0
+INFO:root:2015-03-27 10:24:19.272240 | Staring next cycle...
+INFO:root:2015-03-27 10:24:19.662826 | Getting terrarium data...
+INFO:root:2015-03-27 10:24:19.862563 | Accessing heater...
+INFO:root:2015-03-27 10:24:19.917801 | Idling for 10 minutes
+INFO:root:2015-03-27 10:29:50.227139 | Init control...
+INFO:root:2015-03-27 10:29:50.230728 | Checking for exit code...1
+INFO:root:2015-03-27 10:29:50.232710 | Exiting due to exit code...
+INFO:root:2015-03-27 10:30:24.447720 | Init control...
+INFO:root:2015-03-27 10:30:24.461729 | Checking for exit code...0
+INFO:root:2015-03-27 10:30:24.467958 | Staring next cycle...
+INFO:root:2015-03-27 10:30:25.361712 | Getting terrarium data...
+INFO:root:2015-03-27 10:30:25.648322 | Accessing heater...
+INFO:root:2015-03-27 10:30:25.771213 | Terrarium: 20 C
+INFO:root:2015-03-27 10:30:25.773504 | Ziel-Temperatur: 25 C
+INFO:root:2015-03-27 10:30:25.775404 | Action is 'heating'
+INFO:root:2015-03-27 10:30:25.851476 | Idling for 10 minutes
+INFO:root:2015-03-27 10:31:25.909585 | Checking for exit code...0
+INFO:root:2015-03-27 10:31:25.911649 | Staring next cycle...
+INFO:root:2015-03-27 10:31:25.929930 | Getting terrarium data...
+INFO:root:2015-03-27 10:31:26.102538 | Accessing heater...
+INFO:root:2015-03-27 10:31:26.135442 | Terrarium: 20 C
+INFO:root:2015-03-27 10:31:26.137577 | Ziel-Temperatur: 25 C
+INFO:root:2015-03-27 10:31:26.140034 | Action is 'heating'
+INFO:root:2015-03-27 10:31:26.169865 | Idling for 10 minutes
+INFO:root:2015-03-27 10:32:26.229578 | Checking for exit code...1
+INFO:root:2015-03-27 10:32:26.231616 | Exiting due to exit code...
+INFO:root:2015-03-27 10:34:17.854691 | Init control...
+INFO:root:2015-03-27 10:34:17.857653 | Checking for exit code...0
+INFO:root:2015-03-27 10:34:17.870583 | Staring next cycle...
+DEBUG:django.db.backends:(0.053) SELECT "terrarium_terrarium"."id", "terrarium_terrarium"."title", "terrarium_terrarium"."temperature_min", "terrarium_terrarium"."temperature_max", "terrarium_terrarium"."sunrise", "terrarium_terrarium"."sunset", "terrarium_terrarium"."sleep_mode" FROM "terrarium_terrarium" ORDER BY "terrarium_terrarium"."id" ASC LIMIT 1; args=()
+INFO:root:2015-03-27 10:34:18.750983 | Getting terrarium data...
+DEBUG:django.db.backends:(0.031) SELECT "terrarium_i2csensor"."id", "terrarium_i2csensor"."title", "terrarium_i2csensor"."terrarium_id", "terrarium_i2csensor"."bank", "terrarium_i2csensor"."address", "terrarium_sht21sensor"."i2csensor_ptr_id" FROM "terrarium_sht21sensor" INNER JOIN "terrarium_i2csensor" ON ( "terrarium_sht21sensor"."i2csensor_ptr_id" = "terrarium_i2csensor"."id" ) WHERE "terrarium_i2csensor"."terrarium_id" = 1 ORDER BY "terrarium_sht21sensor"."i2csensor_ptr_id" ASC LIMIT 1; args=(1,)
+INFO:root:2015-03-27 10:34:19.035074 | Accessing heater...
+DEBUG:django.db.backends:(0.024) SELECT "terrarium_i2cactor"."id", "terrarium_i2cactor"."title", "terrarium_i2cactor"."terrarium_id", "terrarium_i2cactor"."chip_address", "terrarium_i2cactor"."data_address", "terrarium_i2cactor"."value_address", "terrarium_i2cactor"."state", "terrarium_heater"."i2cactor_ptr_id" FROM "terrarium_heater" INNER JOIN "terrarium_i2cactor" ON ( "terrarium_heater"."i2cactor_ptr_id" = "terrarium_i2cactor"."id" ) WHERE "terrarium_i2cactor"."terrarium_id" = 1 ORDER BY "terrarium_heater"."i2cactor_ptr_id" ASC LIMIT 1; args=(1,)
+INFO:root:2015-03-27 10:34:19.163691 | Terrarium: 20 C
+INFO:root:2015-03-27 10:34:19.165916 | Ziel-Temperatur: 25 C
+INFO:root:2015-03-27 10:34:19.167812 | Action is 'heating'
+DEBUG:django.db.backends:(0.025) INSERT INTO "main_karnipilog" ("type", "datetime", "message") VALUES ('INFO', '2015-03-27 10:34:19.181582', 'Turned on Heizkabel') RETURNING "main_karnipilog"."id"; args=('INFO', u'2015-03-27 10:34:19.181582', u'Turned on Heizkabel')
+DEBUG:root:2015-03-27 10:34:19.232098 | Initializing adapter
+DEBUG:root:2015-03-27 10:34:19.234324 | Prepared SMBus
+DEBUG:root:2015-03-27 10:34:19.236338 | Setting chip address (32) and data address (20) for i2c
+DEBUG:root:2015-03-27 10:34:19.245991 | currently on bus = ['0', '0', '0', '0', '0', '0', '1', '1']
+DEBUG:root:2015-03-27 10:34:19.251099 | value address    = ['0', '0', '0', '0', '0', '0', '0', '1']
+DEBUG:root:2015-03-27 10:34:19.253227 | 1 XOR 3 = 3
+DEBUG:root:2015-03-27 10:34:19.263367 | now on bus       = ['0', '0', '0', '0', '0', '0', '1', '1']
+INFO:root:2015-03-27 10:34:19.265488 | Idling for 10 minutes
+INFO:root:2015-03-27 10:35:19.328102 | Checking for exit code...0
+INFO:root:2015-03-27 10:35:19.330468 | Staring next cycle...
+DEBUG:django.db.backends:(0.006) SELECT "terrarium_terrarium"."id", "terrarium_terrarium"."title", "terrarium_terrarium"."temperature_min", "terrarium_terrarium"."temperature_max", "terrarium_terrarium"."sunrise", "terrarium_terrarium"."sunset", "terrarium_terrarium"."sleep_mode" FROM "terrarium_terrarium" ORDER BY "terrarium_terrarium"."id" ASC LIMIT 1; args=()
+INFO:root:2015-03-27 10:35:19.351585 | Getting terrarium data...
+DEBUG:django.db.backends:(0.008) SELECT "terrarium_i2csensor"."id", "terrarium_i2csensor"."title", "terrarium_i2csensor"."terrarium_id", "terrarium_i2csensor"."bank", "terrarium_i2csensor"."address", "terrarium_sht21sensor"."i2csensor_ptr_id" FROM "terrarium_sht21sensor" INNER JOIN "terrarium_i2csensor" ON ( "terrarium_sht21sensor"."i2csensor_ptr_id" = "terrarium_i2csensor"."id" ) WHERE "terrarium_i2csensor"."terrarium_id" = 1 ORDER BY "terrarium_sht21sensor"."i2csensor_ptr_id" ASC LIMIT 1; args=(1,)
+INFO:root:2015-03-27 10:35:19.525939 | Accessing heater...
+DEBUG:django.db.backends:(0.008) SELECT "terrarium_i2cactor"."id", "terrarium_i2cactor"."title", "terrarium_i2cactor"."terrarium_id", "terrarium_i2cactor"."chip_address", "terrarium_i2cactor"."data_address", "terrarium_i2cactor"."value_address", "terrarium_i2cactor"."state", "terrarium_heater"."i2cactor_ptr_id" FROM "terrarium_heater" INNER JOIN "terrarium_i2cactor" ON ( "terrarium_heater"."i2cactor_ptr_id" = "terrarium_i2cactor"."id" ) WHERE "terrarium_i2cactor"."terrarium_id" = 1 ORDER BY "terrarium_heater"."i2cactor_ptr_id" ASC LIMIT 1; args=(1,)
+INFO:root:2015-03-27 10:35:19.560402 | Terrarium: 21 C
+INFO:root:2015-03-27 10:35:19.562464 | Ziel-Temperatur: 25 C
+INFO:root:2015-03-27 10:35:19.564485 | Action is 'heating'
+DEBUG:django.db.backends:(0.008) INSERT INTO "main_karnipilog" ("type", "datetime", "message") VALUES ('INFO', '2015-03-27 10:35:19.566290', 'Turned on Heizkabel') RETURNING "main_karnipilog"."id"; args=('INFO', u'2015-03-27 10:35:19.566290', u'Turned on Heizkabel')
+DEBUG:root:2015-03-27 10:35:19.592390 | Initializing adapter
+DEBUG:root:2015-03-27 10:35:19.594556 | Prepared SMBus
+DEBUG:root:2015-03-27 10:35:19.596657 | Setting chip address (32) and data address (20) for i2c
+DEBUG:root:2015-03-27 10:35:19.599420 | currently on bus = ['0', '0', '0', '0', '0', '0', '1', '1']
+DEBUG:root:2015-03-27 10:35:19.601601 | value address    = ['0', '0', '0', '0', '0', '0', '0', '1']
+DEBUG:root:2015-03-27 10:35:19.603714 | 1 XOR 3 = 3
+DEBUG:root:2015-03-27 10:35:19.607166 | now on bus       = ['0', '0', '0', '0', '0', '0', '1', '1']
+INFO:root:2015-03-27 10:35:19.609336 | Idling for 10 minutes
+INFO:root:2015-03-27 10:36:19.659600 | Checking for exit code...1
+INFO:root:2015-03-27 10:36:19.661618 | Exiting due to exit code...
+DEBUG:root:2015-03-27 10:38:26.182325 | Initializing adapter
+DEBUG:root:2015-03-27 10:38:26.184909 | Prepared SMBus
+DEBUG:root:2015-03-27 10:38:26.186875 | Setting chip address (32) and data address (20) for i2c
+DEBUG:root:2015-03-27 10:38:26.189601 | currently on bus = ['0', '0', '0', '0', '0', '0', '1', '1']
+DEBUG:root:2015-03-27 10:38:26.191908 | value address    = ['0', '0', '0', '0', '0', '0', '1', '0']
+DEBUG:root:2015-03-27 10:38:26.193859 | index = 0, value = 0, bus = 0
+DEBUG:root:2015-03-27 10:38:26.195737 | index = 1, value = 0, bus = 0
+DEBUG:root:2015-03-27 10:38:26.197627 | index = 2, value = 0, bus = 0
+DEBUG:root:2015-03-27 10:38:26.199933 | index = 3, value = 0, bus = 0
+DEBUG:root:2015-03-27 10:38:26.201836 | index = 4, value = 0, bus = 0
+DEBUG:root:2015-03-27 10:38:26.203711 | index = 5, value = 0, bus = 0
+DEBUG:root:2015-03-27 10:38:26.205565 | index = 6, value = 1, bus = 1
+DEBUG:root:2015-03-27 10:38:26.207543 | found mismatch at index 6
+DEBUG:root:2015-03-27 10:38:26.209608 | index = 7, value = 0, bus = 1
+DEBUG:root:2015-03-27 10:38:26.213021 | now on bus       = ['0', '0', '0', '0', '0', '0', '0', '1']
+DEBUG:django.db.backends:(0.011) UPDATE "terrarium_terrarium" SET "title" = 'Karnivorenterrarium', "temperature_min" = '19', "temperature_max" = '25', "sunrise" = '12:00:00', "sunset" = '20:00:00', "sleep_mode" = true WHERE "terrarium_terrarium"."id" = 1; args=(u'Karnivorenterrarium', u'19', u'25', u'12:00:00', u'20:00:00', True, 1)
+DEBUG:django.db.backends:(0.008) INSERT INTO "main_karnipilog" ("type", "datetime", "message") VALUES ('INFO', '2015-03-27 10:38:26.247857', 'Sleeping now...') RETURNING "main_karnipilog"."id"; args=('INFO', u'2015-03-27 10:38:26.247857', 'Sleeping now...')
+INFO:root:2015-03-27 10:39:14.833802 | Init control...
+INFO:root:2015-03-27 10:39:14.836947 | Checking for exit code...1
+INFO:root:2015-03-27 10:39:14.844196 | Exiting due to exit code...
+INFO:root:2015-03-27 10:39:47.242031 | Init control...
+INFO:root:2015-03-27 10:39:47.245118 | Checking for exit code...0
+INFO:root:2015-03-27 10:39:47.247259 | Staring next cycle...
+DEBUG:django.db.backends:(0.068) SELECT "terrarium_terrarium"."id", "terrarium_terrarium"."title", "terrarium_terrarium"."temperature_min", "terrarium_terrarium"."temperature_max", "terrarium_terrarium"."sunrise", "terrarium_terrarium"."sunset", "terrarium_terrarium"."sleep_mode" FROM "terrarium_terrarium" ORDER BY "terrarium_terrarium"."id" ASC LIMIT 1; args=()
+INFO:root:2015-03-27 10:39:48.171844 | Sleeping so well...
+INFO:root:2015-03-27 10:39:48.173846 | Idling for 10 minutes
+INFO:root:2015-03-27 10:40:48.198522 | Checking for exit code...0
+INFO:root:2015-03-27 10:40:48.200763 | Staring next cycle...
+DEBUG:django.db.backends:(0.007) SELECT "terrarium_terrarium"."id", "terrarium_terrarium"."title", "terrarium_terrarium"."temperature_min", "terrarium_terrarium"."temperature_max", "terrarium_terrarium"."sunrise", "terrarium_terrarium"."sunset", "terrarium_terrarium"."sleep_mode" FROM "terrarium_terrarium" ORDER BY "terrarium_terrarium"."id" ASC LIMIT 1; args=()
+INFO:root:2015-03-27 10:40:48.222012 | Sleeping so well...
+INFO:root:2015-03-27 10:40:48.224013 | Idling for 10 minutes

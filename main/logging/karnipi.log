@@ -1,0 +1,324 @@
+INFO:root:2016-02-11 09:22:30.324252 | Init control...
+INFO:root:2016-02-11 09:22:30.329739 | Checking for exit code...0
+
+INFO:root:2016-02-11 09:22:30.331684 | Staring next cycle...
+INFO:root:2016-02-11 09:22:30.793037 | Getting terrarium data...
+INFO:root:2016-02-11 09:22:30.989464 | Accessing heater...
+INFO:root:2016-02-11 09:22:31.040517 | Terrarium: 19 C
+INFO:root:2016-02-11 09:22:31.042617 | Ziel-Temperatur: 26 C
+INFO:root:2016-02-11 09:22:31.044988 | Action is 'heating'
+INFO:root:2016-02-11 09:22:31.138200 | Idling for 10 minutes
+INFO:root:2016-02-11 12:12:41.107413 | Initialized bus with chip address 20 and data address 14
+INFO:root:2016-02-11 12:12:41.110969 | Checking current bus state...
+INFO:root:2016-02-11 12:12:41.113830 | bus read byte data = 0
+INFO:root:2016-02-11 12:12:41.115926 | Setting state for value address 2 and state 0
+INFO:root:2016-02-11 12:12:41.118399 | bus read byte data = 0
+INFO:root:2016-02-11 12:12:41.120546 | Currently on bus = ['0', '0', '0', '0', '0', '0', '0', '0']
+INFO:root:2016-02-11 12:12:41.122824 | Value address    = ['0', '0', '0', '0', '0', '0', '1', '0']
+INFO:root:2016-02-11 12:12:41.131007 | New bus binary 00000000
+INFO:root:2016-02-11 12:12:41.133014 | New bus int 0
+INFO:root:2016-02-11 12:12:41.135546 | Now working with 20 14 0
+INFO:root:2016-02-11 12:12:41.140900 | bus read byte data = 0
+INFO:root:2016-02-11 12:12:41.232595 | Initialized bus with chip address 20 and data address 14
+INFO:root:2016-02-11 12:12:41.235032 | Checking current bus state...
+INFO:root:2016-02-11 12:12:41.237537 | bus read byte data = 0
+INFO:root:2016-02-11 12:12:41.239535 | Setting state for value address 2 and state 0
+INFO:root:2016-02-11 12:12:41.241970 | bus read byte data = 0
+INFO:root:2016-02-11 12:12:41.244257 | Currently on bus = ['0', '0', '0', '0', '0', '0', '0', '0']
+INFO:root:2016-02-11 12:12:41.246441 | Value address    = ['0', '0', '0', '0', '0', '0', '1', '0']
+INFO:root:2016-02-11 12:12:41.255509 | New bus binary 00000000
+INFO:root:2016-02-11 12:12:41.257670 | New bus int 0
+INFO:root:2016-02-11 12:12:41.260099 | Now working with 20 14 0
+INFO:root:2016-02-11 12:12:41.263814 | bus read byte data = 0
+INFO:root:2016-02-11 12:12:41.312484 | Initialized bus with chip address 20 and data address 15
+INFO:root:2016-02-11 12:12:41.314921 | Checking current bus state...
+INFO:root:2016-02-11 12:12:41.317434 | bus read byte data = 0
+INFO:root:2016-02-11 12:12:41.319432 | Setting state for value address 80 and state 0
+INFO:root:2016-02-11 12:12:41.321900 | bus read byte data = 0
+INFO:root:2016-02-11 12:12:41.324181 | Currently on bus = ['0', '0', '0', '0', '0', '0', '0', '0']
+INFO:root:2016-02-11 12:12:41.326353 | Value address    = ['0', '1', '0', '1', '0', '0', '0', '0']
+INFO:root:2016-02-11 12:12:41.334587 | New bus binary 00000000
+INFO:root:2016-02-11 12:12:41.336609 | New bus int 0
+INFO:root:2016-02-11 12:12:41.339118 | Now working with 20 15 0
+INFO:root:2016-02-11 12:12:41.342570 | bus read byte data = 0
+INFO:root:2016-02-11 12:12:41.390818 | Initialized bus with chip address 20 and data address 14
+INFO:root:2016-02-11 12:12:41.392866 | Checking current bus state...
+INFO:root:2016-02-11 12:12:41.397205 | bus read byte data = 0
+INFO:root:2016-02-11 12:12:41.399247 | Setting state for value address 1 and state 0
+INFO:root:2016-02-11 12:12:41.401817 | bus read byte data = 0
+INFO:root:2016-02-11 12:12:41.404098 | Currently on bus = ['0', '0', '0', '0', '0', '0', '0', '0']
+INFO:root:2016-02-11 12:12:41.406282 | Value address    = ['0', '0', '0', '0', '0', '0', '0', '1']
+INFO:root:2016-02-11 12:12:41.414595 | New bus binary 00000000
+INFO:root:2016-02-11 12:12:41.416613 | New bus int 0
+INFO:root:2016-02-11 12:12:41.419680 | Now working with 20 14 0
+INFO:root:2016-02-11 12:12:41.423731 | bus read byte data = 0
+INFO:root:2016-02-11 12:12:41.473700 | Initialized bus with chip address 20 and data address 14
+INFO:root:2016-02-11 12:12:41.476128 | Checking current bus state...
+INFO:root:2016-02-11 12:12:41.478649 | bus read byte data = 0
+INFO:root:2016-02-11 12:12:41.480961 | Setting state for value address 80 and state 0
+INFO:root:2016-02-11 12:12:41.483828 | bus read byte data = 0
+INFO:root:2016-02-11 12:12:41.486001 | Currently on bus = ['0', '0', '0', '0', '0', '0', '0', '0']
+INFO:root:2016-02-11 12:12:41.488268 | Value address    = ['0', '1', '0', '1', '0', '0', '0', '0']
+INFO:root:2016-02-11 12:12:41.498695 | New bus binary 00000000
+INFO:root:2016-02-11 12:12:41.500717 | New bus int 0
+INFO:root:2016-02-11 12:12:41.503081 | Now working with 20 14 0
+INFO:root:2016-02-11 12:12:41.507093 | bus read byte data = 0
+INFO:root:2016-02-11 12:12:41.555780 | Initialized bus with chip address 20 and data address 14
+INFO:root:2016-02-11 12:12:41.557823 | Checking current bus state...
+INFO:root:2016-02-11 12:12:41.560299 | bus read byte data = 0
+INFO:root:2016-02-11 12:12:41.562428 | Setting state for value address 8 and state 0
+INFO:root:2016-02-11 12:12:41.565053 | bus read byte data = 0
+INFO:root:2016-02-11 12:12:41.567183 | Currently on bus = ['0', '0', '0', '0', '0', '0', '0', '0']
+INFO:root:2016-02-11 12:12:41.569382 | Value address    = ['0', '0', '0', '0', '1', '0', '0', '0']
+INFO:root:2016-02-11 12:12:41.579252 | New bus binary 00000000
+INFO:root:2016-02-11 12:12:41.581258 | New bus int 0
+INFO:root:2016-02-11 12:12:41.583878 | Now working with 20 14 0
+INFO:root:2016-02-11 12:12:41.587529 | bus read byte data = 0
+INFO:root:2016-02-11 12:13:30.385564 | Initialized bus with chip address 20 and data address 14
+INFO:root:2016-02-11 12:13:30.387961 | Checking current bus state...
+INFO:root:2016-02-11 12:13:30.390508 | bus read byte data = 0
+INFO:root:2016-02-11 12:13:30.392463 | Setting state for value address 2 and state 1
+INFO:root:2016-02-11 12:13:30.395148 | bus read byte data = 0
+INFO:root:2016-02-11 12:13:30.397221 | Currently on bus = ['0', '0', '0', '0', '0', '0', '0', '0']
+INFO:root:2016-02-11 12:13:30.399435 | Value address    = ['0', '0', '0', '0', '0', '0', '1', '0']
+INFO:root:2016-02-11 12:13:30.401394 | 2 XOR 0 = 2
+INFO:root:2016-02-11 12:13:30.403793 | Now working with 20 14 2
+INFO:root:2016-02-11 12:13:30.407625 | bus read byte data = 2
+INFO:root:2016-02-11 12:21:22.775381 | Initialized bus with chip address 20 and data address 14
+INFO:root:2016-02-11 12:21:22.777683 | Checking current bus state...
+INFO:root:2016-02-11 12:21:22.780128 | bus read byte data = 0
+INFO:root:2016-02-11 12:21:22.784077 | Setting state for value address 2 and state 0
+INFO:root:2016-02-11 12:21:22.786568 | bus read byte data = 0
+INFO:root:2016-02-11 12:21:22.788648 | Currently on bus = ['0', '0', '0', '0', '0', '0', '0', '0']
+INFO:root:2016-02-11 12:21:22.790872 | Value address    = ['0', '0', '0', '0', '0', '0', '1', '0']
+INFO:root:2016-02-11 12:21:22.799021 | New bus binary 00000000
+INFO:root:2016-02-11 12:21:22.801600 | New bus int 0
+INFO:root:2016-02-11 12:21:22.804178 | Now working with 20 14 0
+INFO:root:2016-02-11 12:21:22.808082 | bus read byte data = 0
+INFO:root:2016-02-11 12:21:23.045672 | Initialized bus with chip address 20 and data address 15
+INFO:root:2016-02-11 12:21:23.047660 | Checking current bus state...
+INFO:root:2016-02-11 12:21:23.050077 | bus read byte data = 0
+INFO:root:2016-02-11 12:21:23.052011 | Setting state for value address 80 and state 0
+INFO:root:2016-02-11 12:21:23.054777 | bus read byte data = 0
+INFO:root:2016-02-11 12:21:23.056890 | Currently on bus = ['0', '0', '0', '0', '0', '0', '0', '0']
+INFO:root:2016-02-11 12:21:23.058983 | Value address    = ['0', '1', '0', '1', '0', '0', '0', '0']
+INFO:root:2016-02-11 12:21:23.067055 | New bus binary 00000000
+INFO:root:2016-02-11 12:21:23.069673 | New bus int 0
+INFO:root:2016-02-11 12:21:23.074643 | Now working with 20 15 0
+INFO:root:2016-02-11 12:21:23.078765 | bus read byte data = 0
+INFO:root:2016-02-11 12:21:23.198785 | Initialized bus with chip address 20 and data address 14
+INFO:root:2016-02-11 12:21:23.202403 | Checking current bus state...
+INFO:root:2016-02-11 12:21:23.205013 | bus read byte data = 0
+INFO:root:2016-02-11 12:21:23.207075 | Setting state for value address 1 and state 0
+INFO:root:2016-02-11 12:21:23.209484 | bus read byte data = 0
+INFO:root:2016-02-11 12:21:23.211560 | Currently on bus = ['0', '0', '0', '0', '0', '0', '0', '0']
+INFO:root:2016-02-11 12:21:23.214025 | Value address    = ['0', '0', '0', '0', '0', '0', '0', '1']
+INFO:root:2016-02-11 12:21:23.222099 | New bus binary 00000000
+INFO:root:2016-02-11 12:21:23.224194 | New bus int 0
+INFO:root:2016-02-11 12:21:23.227174 | Now working with 20 14 0
+INFO:root:2016-02-11 12:21:23.233398 | bus read byte data = 0
+INFO:root:2016-02-11 12:21:23.350353 | Initialized bus with chip address 20 and data address 14
+INFO:root:2016-02-11 12:21:23.352325 | Checking current bus state...
+INFO:root:2016-02-11 12:21:23.355014 | bus read byte data = 0
+INFO:root:2016-02-11 12:21:23.356953 | Setting state for value address 80 and state 0
+INFO:root:2016-02-11 12:21:23.359488 | bus read byte data = 0
+INFO:root:2016-02-11 12:21:23.361550 | Currently on bus = ['0', '0', '0', '0', '0', '0', '0', '0']
+INFO:root:2016-02-11 12:21:23.363729 | Value address    = ['0', '1', '0', '1', '0', '0', '0', '0']
+INFO:root:2016-02-11 12:21:23.373675 | New bus binary 00000000
+INFO:root:2016-02-11 12:21:23.375641 | New bus int 0
+INFO:root:2016-02-11 12:21:23.378603 | Now working with 20 14 0
+INFO:root:2016-02-11 12:21:23.382336 | bus read byte data = 0
+INFO:root:2016-02-11 12:21:23.482502 | Initialized bus with chip address 20 and data address 14
+INFO:root:2016-02-11 12:21:23.484666 | Checking current bus state...
+INFO:root:2016-02-11 12:21:23.487214 | bus read byte data = 0
+INFO:root:2016-02-11 12:21:23.489133 | Setting state for value address 8 and state 0
+INFO:root:2016-02-11 12:21:23.491525 | bus read byte data = 0
+INFO:root:2016-02-11 12:21:23.493851 | Currently on bus = ['0', '0', '0', '0', '0', '0', '0', '0']
+INFO:root:2016-02-11 12:21:23.495980 | Value address    = ['0', '0', '0', '0', '1', '0', '0', '0']
+INFO:root:2016-02-11 12:21:23.506263 | New bus binary 00000000
+INFO:root:2016-02-11 12:21:23.508218 | New bus int 0
+INFO:root:2016-02-11 12:21:23.511442 | Now working with 20 14 0
+INFO:root:2016-02-11 12:21:23.518150 | bus read byte data = 0
+INFO:root:2016-02-11 12:21:23.567674 | Initialized bus with chip address 20 and data address 14
+INFO:root:2016-02-11 12:21:23.569635 | Checking current bus state...
+INFO:root:2016-02-11 12:21:23.572056 | bus read byte data = 0
+INFO:root:2016-02-11 12:21:23.574257 | Setting state for value address 2 and state 0
+INFO:root:2016-02-11 12:21:23.576686 | bus read byte data = 0
+INFO:root:2016-02-11 12:21:23.578876 | Currently on bus = ['0', '0', '0', '0', '0', '0', '0', '0']
+INFO:root:2016-02-11 12:21:23.580983 | Value address    = ['0', '0', '0', '0', '0', '0', '1', '0']
+INFO:root:2016-02-11 12:21:23.589422 | New bus binary 00000000
+INFO:root:2016-02-11 12:21:23.591381 | New bus int 0
+INFO:root:2016-02-11 12:21:23.593823 | Now working with 20 14 0
+INFO:root:2016-02-11 12:21:23.597342 | bus read byte data = 0
+INFO:root:2016-02-11 12:26:23.340916 | Initialized bus with chip address 20 and data address 14
+INFO:root:2016-02-11 12:26:23.343415 | Checking current bus state...
+INFO:root:2016-02-11 12:26:23.345966 | bus read byte data = 0
+INFO:root:2016-02-11 12:26:23.348135 | Setting state for value address 2 and state 1
+INFO:root:2016-02-11 12:26:23.350666 | bus read byte data = 0
+INFO:root:2016-02-11 12:26:23.352890 | Currently on bus = ['0', '0', '0', '0', '0', '0', '0', '0']
+INFO:root:2016-02-11 12:26:23.355082 | Value address    = ['0', '0', '0', '0', '0', '0', '1', '0']
+INFO:root:2016-02-11 12:26:23.357266 | 2 XOR 0 = 2
+INFO:root:2016-02-11 12:26:23.359663 | Now working with 20 14 2
+INFO:root:2016-02-11 12:26:23.363942 | bus read byte data = 2
+INFO:root:2016-02-11 12:48:29.118077 | Initialized bus with chip address 20 and data address 14
+INFO:root:2016-02-11 12:48:29.120678 | Checking current bus state...
+INFO:root:2016-02-11 12:48:29.123425 | bus read byte data = 0
+INFO:root:2016-02-11 12:48:29.125550 | Setting state for value address 2 and state 0
+INFO:root:2016-02-11 12:48:29.128114 | bus read byte data = 0
+INFO:root:2016-02-11 12:48:29.130621 | Currently on bus = ['0', '0', '0', '0', '0', '0', '0', '0']
+INFO:root:2016-02-11 12:48:29.132906 | Value address    = ['0', '0', '0', '0', '0', '0', '1', '0']
+INFO:root:2016-02-11 12:48:29.142117 | New bus binary 00000000
+INFO:root:2016-02-11 12:48:29.144227 | New bus int 0
+INFO:root:2016-02-11 12:48:29.147343 | Now working with 20 14 0
+INFO:root:2016-02-11 12:48:29.151166 | bus read byte data = 0
+INFO:root:2016-02-11 12:48:29.240543 | Initialized bus with chip address 20 and data address 15
+INFO:root:2016-02-11 12:48:29.242807 | Checking current bus state...
+INFO:root:2016-02-11 12:48:29.245839 | bus read byte data = 0
+INFO:root:2016-02-11 12:48:29.247927 | Setting state for value address 80 and state 0
+INFO:root:2016-02-11 12:48:29.250940 | bus read byte data = 0
+INFO:root:2016-02-11 12:48:29.253200 | Currently on bus = ['0', '0', '0', '0', '0', '0', '0', '0']
+INFO:root:2016-02-11 12:48:29.255420 | Value address    = ['0', '1', '0', '1', '0', '0', '0', '0']
+INFO:root:2016-02-11 12:48:29.263996 | New bus binary 00000000
+INFO:root:2016-02-11 12:48:29.266233 | New bus int 0
+INFO:root:2016-02-11 12:48:29.268675 | Now working with 20 15 0
+INFO:root:2016-02-11 12:48:29.272775 | bus read byte data = 0
+INFO:root:2016-02-11 12:48:29.321957 | Initialized bus with chip address 20 and data address 14
+INFO:root:2016-02-11 12:48:29.324086 | Checking current bus state...
+INFO:root:2016-02-11 12:48:29.326660 | bus read byte data = 0
+INFO:root:2016-02-11 12:48:29.328739 | Setting state for value address 1 and state 0
+INFO:root:2016-02-11 12:48:29.331592 | bus read byte data = 0
+INFO:root:2016-02-11 12:48:29.333816 | Currently on bus = ['0', '0', '0', '0', '0', '0', '0', '0']
+INFO:root:2016-02-11 12:48:29.336003 | Value address    = ['0', '0', '0', '0', '0', '0', '0', '1']
+INFO:root:2016-02-11 12:48:29.344623 | New bus binary 00000000
+INFO:root:2016-02-11 12:48:29.346840 | New bus int 0
+INFO:root:2016-02-11 12:48:29.350532 | Now working with 20 14 0
+INFO:root:2016-02-11 12:48:29.354606 | bus read byte data = 0
+INFO:root:2016-02-11 12:48:29.410193 | Initialized bus with chip address 20 and data address 14
+INFO:root:2016-02-11 12:48:29.412387 | Checking current bus state...
+INFO:root:2016-02-11 12:48:29.415377 | bus read byte data = 0
+INFO:root:2016-02-11 12:48:29.417959 | Setting state for value address 80 and state 0
+INFO:root:2016-02-11 12:48:29.420507 | bus read byte data = 0
+INFO:root:2016-02-11 12:48:29.423192 | Currently on bus = ['0', '0', '0', '0', '0', '0', '0', '0']
+INFO:root:2016-02-11 12:48:29.425580 | Value address    = ['0', '1', '0', '1', '0', '0', '0', '0']
+INFO:root:2016-02-11 12:48:29.435743 | New bus binary 00000000
+INFO:root:2016-02-11 12:48:29.437849 | New bus int 0
+INFO:root:2016-02-11 12:48:29.440562 | Now working with 20 14 0
+INFO:root:2016-02-11 12:48:29.444693 | bus read byte data = 0
+INFO:root:2016-02-11 12:48:29.503610 | Initialized bus with chip address 20 and data address 14
+INFO:root:2016-02-11 12:48:29.505924 | Checking current bus state...
+INFO:root:2016-02-11 12:48:29.508499 | bus read byte data = 0
+INFO:root:2016-02-11 12:48:29.510819 | Setting state for value address 8 and state 0
+INFO:root:2016-02-11 12:48:29.513497 | bus read byte data = 0
+INFO:root:2016-02-11 12:48:29.515718 | Currently on bus = ['0', '0', '0', '0', '0', '0', '0', '0']
+INFO:root:2016-02-11 12:48:29.517907 | Value address    = ['0', '0', '0', '0', '1', '0', '0', '0']
+INFO:root:2016-02-11 12:48:29.531761 | New bus binary 00000000
+INFO:root:2016-02-11 12:48:29.533855 | New bus int 0
+INFO:root:2016-02-11 12:48:29.536806 | Now working with 20 14 0
+INFO:root:2016-02-11 12:48:29.541166 | bus read byte data = 0
+INFO:root:2016-02-11 12:48:29.595925 | Initialized bus with chip address 20 and data address 14
+INFO:root:2016-02-11 12:48:29.598055 | Checking current bus state...
+INFO:root:2016-02-11 12:48:29.600611 | bus read byte data = 0
+INFO:root:2016-02-11 12:48:29.602820 | Setting state for value address 2 and state 0
+INFO:root:2016-02-11 12:48:29.605347 | bus read byte data = 0
+INFO:root:2016-02-11 12:48:29.607689 | Currently on bus = ['0', '0', '0', '0', '0', '0', '0', '0']
+INFO:root:2016-02-11 12:48:29.610310 | Value address    = ['0', '0', '0', '0', '0', '0', '1', '0']
+INFO:root:2016-02-11 12:48:29.619746 | New bus binary 00000000
+INFO:root:2016-02-11 12:48:29.626685 | New bus int 0
+INFO:root:2016-02-11 12:48:29.629455 | Now working with 20 14 0
+INFO:root:2016-02-11 12:48:29.634267 | bus read byte data = 0
+INFO:root:2016-02-11 12:48:45.698721 | Initialized bus with chip address 20 and data address 14
+INFO:root:2016-02-11 12:48:45.701719 | Checking current bus state...
+INFO:root:2016-02-11 12:48:45.704377 | bus read byte data = 0
+INFO:root:2016-02-11 12:48:45.706462 | Setting state for value address 2 and state 1
+INFO:root:2016-02-11 12:48:45.709152 | bus read byte data = 0
+INFO:root:2016-02-11 12:48:45.711556 | Currently on bus = ['0', '0', '0', '0', '0', '0', '0', '0']
+INFO:root:2016-02-11 12:48:45.713806 | Value address    = ['0', '0', '0', '0', '0', '0', '1', '0']
+INFO:root:2016-02-11 12:48:45.716015 | 2 XOR 0 = 2
+INFO:root:2016-02-11 12:48:45.718456 | Now working with 20 14 2
+INFO:root:2016-02-11 12:48:45.722539 | bus read byte data = 2
+INFO:root:2016-02-11 13:00:13.276529 | Init control...
+INFO:root:2016-02-11 13:00:13.279836 | Checking for exit code...0
+
+INFO:root:2016-02-11 13:00:13.284267 | Staring next cycle...
+INFO:root:2016-02-11 13:00:13.745975 | Getting terrarium data...
+INFO:root:2016-02-11 13:00:13.954370 | Accessing heater...
+INFO:root:2016-02-11 13:00:14.006084 | Terrarium: 20 C
+INFO:root:2016-02-11 13:00:14.008325 | Ziel-Temperatur: 26 C
+INFO:root:2016-02-11 13:00:14.010548 | Action is 'heating'
+INFO:root:2016-02-11 13:00:14.092971 | Initialized bus with chip address 20 and data address 14
+INFO:root:2016-02-11 13:00:14.095125 | Checking current bus state...
+INFO:root:2016-02-11 13:00:14.097739 | bus read byte data = 0
+INFO:root:2016-02-11 13:00:14.099730 | Setting state for value address 1 and state 1
+INFO:root:2016-02-11 13:00:14.102442 | bus read byte data = 0
+INFO:root:2016-02-11 13:00:14.104714 | Currently on bus = ['0', '0', '0', '0', '0', '0', '0', '0']
+INFO:root:2016-02-11 13:00:14.106830 | Value address    = ['0', '0', '0', '0', '0', '0', '0', '1']
+INFO:root:2016-02-11 13:00:14.108833 | 1 XOR 0 = 1
+INFO:root:2016-02-11 13:00:14.111743 | Now working with 20 14 1
+INFO:root:2016-02-11 13:00:14.115861 | bus read byte data = 1
+INFO:root:2016-02-11 13:00:14.117957 | Idling for 10 minutes
+INFO:root:2016-02-11 13:04:56.381790 | Initialized bus with chip address 20 and data address 14
+INFO:root:2016-02-11 13:04:56.385758 | Checking current bus state...
+INFO:root:2016-02-11 13:04:56.388403 | bus read byte data = 0
+INFO:root:2016-02-11 13:04:56.390722 | Setting state for value address 2 and state 0
+INFO:root:2016-02-11 13:04:56.393230 | bus read byte data = 0
+INFO:root:2016-02-11 13:04:56.395486 | Currently on bus = ['0', '0', '0', '0', '0', '0', '0', '0']
+INFO:root:2016-02-11 13:04:56.397629 | Value address    = ['0', '0', '0', '0', '0', '0', '1', '0']
+INFO:root:2016-02-11 13:04:56.406382 | New bus binary 00000000
+INFO:root:2016-02-11 13:04:56.408768 | New bus int 0
+INFO:root:2016-02-11 13:04:56.411557 | Now working with 20 14 0
+INFO:root:2016-02-11 13:04:56.416994 | bus read byte data = 0
+INFO:root:2016-02-11 13:04:56.507642 | Initialized bus with chip address 20 and data address 15
+INFO:root:2016-02-11 13:04:56.509670 | Checking current bus state...
+INFO:root:2016-02-11 13:04:56.512339 | bus read byte data = 0
+INFO:root:2016-02-11 13:04:56.514315 | Setting state for value address 80 and state 0
+INFO:root:2016-02-11 13:04:56.516893 | bus read byte data = 0
+INFO:root:2016-02-11 13:04:56.519013 | Currently on bus = ['0', '0', '0', '0', '0', '0', '0', '0']
+INFO:root:2016-02-11 13:04:56.521468 | Value address    = ['0', '1', '0', '1', '0', '0', '0', '0']
+INFO:root:2016-02-11 13:04:56.530506 | New bus binary 00000000
+INFO:root:2016-02-11 13:04:56.532620 | New bus int 0
+INFO:root:2016-02-11 13:04:56.534980 | Now working with 20 15 0
+INFO:root:2016-02-11 13:04:56.540754 | bus read byte data = 0
+INFO:root:2016-02-11 13:04:56.587811 | Initialized bus with chip address 20 and data address 14
+INFO:root:2016-02-11 13:04:56.589833 | Checking current bus state...
+INFO:root:2016-02-11 13:04:56.595425 | bus read byte data = 0
+INFO:root:2016-02-11 13:04:56.597412 | Setting state for value address 80 and state 0
+INFO:root:2016-02-11 13:04:56.599858 | bus read byte data = 0
+INFO:root:2016-02-11 13:04:56.602133 | Currently on bus = ['0', '0', '0', '0', '0', '0', '0', '0']
+INFO:root:2016-02-11 13:04:56.604387 | Value address    = ['0', '1', '0', '1', '0', '0', '0', '0']
+INFO:root:2016-02-11 13:04:56.613170 | New bus binary 00000000
+INFO:root:2016-02-11 13:04:56.615156 | New bus int 0
+INFO:root:2016-02-11 13:04:56.617492 | Now working with 20 14 0
+INFO:root:2016-02-11 13:04:56.621984 | bus read byte data = 0
+INFO:root:2016-02-11 13:04:56.672135 | Initialized bus with chip address 20 and data address 14
+INFO:root:2016-02-11 13:04:56.674388 | Checking current bus state...
+INFO:root:2016-02-11 13:04:56.677013 | bus read byte data = 0
+INFO:root:2016-02-11 13:04:56.678977 | Setting state for value address 8 and state 0
+INFO:root:2016-02-11 13:04:56.681567 | bus read byte data = 0
+INFO:root:2016-02-11 13:04:56.683802 | Currently on bus = ['0', '0', '0', '0', '0', '0', '0', '0']
+INFO:root:2016-02-11 13:04:56.685923 | Value address    = ['0', '0', '0', '0', '1', '0', '0', '0']
+INFO:root:2016-02-11 13:04:56.697272 | New bus binary 00000000
+INFO:root:2016-02-11 13:04:56.699384 | New bus int 0
+INFO:root:2016-02-11 13:04:56.702971 | Now working with 20 14 0
+INFO:root:2016-02-11 13:04:56.706874 | bus read byte data = 0
+INFO:root:2016-02-11 13:04:56.760214 | Initialized bus with chip address 20 and data address 14
+INFO:root:2016-02-11 13:04:56.762522 | Checking current bus state...
+INFO:root:2016-02-11 13:04:56.765126 | bus read byte data = 0
+INFO:root:2016-02-11 13:04:56.767088 | Setting state for value address 1 and state 0
+INFO:root:2016-02-11 13:04:56.769539 | bus read byte data = 0
+INFO:root:2016-02-11 13:04:56.771937 | Currently on bus = ['0', '0', '0', '0', '0', '0', '0', '0']
+INFO:root:2016-02-11 13:04:56.774060 | Value address    = ['0', '0', '0', '0', '0', '0', '0', '1']
+INFO:root:2016-02-11 13:04:56.782979 | New bus binary 00000000
+INFO:root:2016-02-11 13:04:56.784957 | New bus int 0
+INFO:root:2016-02-11 13:04:56.788831 | Now working with 20 14 0
+INFO:root:2016-02-11 13:04:56.793364 | bus read byte data = 0
+INFO:root:2016-02-11 13:04:56.845808 | Initialized bus with chip address 20 and data address 14
+INFO:root:2016-02-11 13:04:56.847832 | Checking current bus state...
+INFO:root:2016-02-11 13:04:56.852797 | bus read byte data = 0
+INFO:root:2016-02-11 13:04:56.854813 | Setting state for value address 2 and state 0
+INFO:root:2016-02-11 13:04:56.857264 | bus read byte data = 0
+INFO:root:2016-02-11 13:04:56.859628 | Currently on bus = ['0', '0', '0', '0', '0', '0', '0', '0']
+INFO:root:2016-02-11 13:04:56.861956 | Value address    = ['0', '0', '0', '0', '0', '0', '1', '0']
+INFO:root:2016-02-11 13:04:56.870894 | New bus binary 00000000
+INFO:root:2016-02-11 13:04:56.873097 | New bus int 0
+INFO:root:2016-02-11 13:04:56.875859 | Now working with 20 14 0
+INFO:root:2016-02-11 13:04:56.879640 | bus read byte data = 0

@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}KarniPi - Aktoren{% endblock %}
+{% block heading %}KarniPi - Aktoren{% endblock %}
+{% block topnav %}
+{% endblock %}
+
+{% block content %}
+
+<table class="table table-striped">
+  <tr>
+  <th>Titel</th><th>Chipadresse</th><th>Datenadresse</th><th>Wertadresse</th>
+  </tr>
+  {% for actor in actors.all %}
+  <tr>
+	<td>{{actor.title}}</td>
+	<td>{{actor.chip_address}}</td>
+	<td>{{actor.data_address}}</td>
+	<td>{{actor.value_address}}</td>
+  </tr>
+  {%endfor%}
+</table>
+
+<div class="form-group">
+    <form>
+        {% csrf_token %}
+        <input class="btn btn-default navbar-btn" id="btnAddActor" type="submit" formmethod="get" formaction="{% url 'config:index' %}" value="Aktor anlegen" />
+    </form>
+</div>
+
+{% endblock %}
