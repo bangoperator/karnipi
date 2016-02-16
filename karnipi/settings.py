@@ -63,7 +63,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'main',
     'config',
-    'weather',
+#    'weather',
     'terrarium',
     'camera',
     'maintenance',
@@ -85,15 +85,6 @@ ROOT_URLCONF = 'karnipi.urls'
 
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
-
-"""
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
-"""
 
 DATABASES = {
         'default': {
@@ -124,14 +115,8 @@ USE_TZ = False
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "static"),
-    '/home/pi/karnipi/static/',
-	'/media/foo/camera/static/'
-)
-
-STATIC_URL = '/static/'
-STATIC_ROOT = "/home/pi/karnipi/static/"
+STATIC_URL = 'static/'
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 MEDIA_ROOT = '/media/foo/camera/static/'
 MEDIA_URL = 'media/'
