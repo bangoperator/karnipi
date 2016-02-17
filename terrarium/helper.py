@@ -1,8 +1,7 @@
 #from __future__ import absolute_import
 
-from django import utils
-
 from config.helper import ConfigHelper
+from django import utils
 from terrarium.models import Terrarium, Fogger, Sprinkler, Fan, Light, Heater, TerrariumLog, SHT21Sensor
 
 
@@ -17,7 +16,13 @@ class TerrariumHelper():
 
         self.prevent_caching()
 
-        latest_terrarium_data = TerrariumLog.objects.latest('time')
+        latest_terrarium_data = None
+
+        try:
+            latest_terrarium_data = TerrariumLog.objects.latest('time')
+        except:
+            pass
+
         return latest_terrarium_data
 
 
