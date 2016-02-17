@@ -52,6 +52,7 @@
         <div class="panel panel-default">
             <div class="panel-heading">Temperatur und Luftfeuchte</div>
             <div class="panel-body">
+                {% if latest_terrarium_data %}
                 <div class="progress">
                     <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="{{latest_terrarium_data.humidity}}" aria-valuemin="60" aria-valuemax="100" style="width: {{latest_terrarium_data.humidity}}%">
                     {{latest_terrarium_data.humidity}} %
@@ -67,6 +68,7 @@
                     {{latest_terrarium_data.temperature}} °C
                     </div>
                 </div>
+                {% endif %}
             </div>
         </div>
         <div class="panel panel-default">
