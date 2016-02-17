@@ -21,7 +21,14 @@
     <tbody>
         {% for cron in crons %}
         <tr>
-            <td>{{ cron.comment }}</td>
+            <td>
+                {% if cron.enabled %}
+                <input type="checkbox" checked="checked">
+                {% else %}
+                <input type="checkbox">
+                {% endif %}
+            </td>
+            <td>{{cron.comment}}</td>
             <td>{{cron.minute}}</td>
             <td>{{cron.hour}}</td>
             <td>{{cron.day}}</td>

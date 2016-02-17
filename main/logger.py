@@ -1,13 +1,15 @@
 __author__ = 'bangoperator'
 
 from django import utils
+from django.conf import settings
 import logging
 
 
 class KarniLogger():
 
     def __init__(self):
-        logging.basicConfig(filename='/home/pi/karnipi/main/logging/karnipi.log', level=logging.INFO)
+        logpath = settings.BASE_DIR + '/main/logging/karnipi.log'
+        logging.basicConfig(filename=logpath, level=logging.INFO)
 
     @staticmethod
     def log_debug(msg):

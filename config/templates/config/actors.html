@@ -23,7 +23,8 @@
 <div class="form-group">
     <form>
         {% csrf_token %}
-        <input class="btn btn-default navbar-btn" id="btnAddActor" type="submit" formmethod="get" formaction="{% url 'config:index' %}" value="Aktor anlegen" />
+        <input class="btn btn-default navbar-btn" id="btnAddActor" type="submit" formmethod="get"
+               formaction="{% url 'config:add_Job' %}" value="Aktor anlegen"/>
     </form>
 </div>
 
