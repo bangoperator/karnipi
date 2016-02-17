@@ -1,9 +1,12 @@
+import time
+
+from django.conf import settings
 from django.db import models
 
-import os
-import time
-from django.conf import settings
-import picamera
+try:
+    import picamera
+except OSError:
+    print "Could not import module 'picamera'. Maybe the module is not enabled in os."
 
 class Picture(models.Model):
 
@@ -15,8 +18,6 @@ class Picture(models.Model):
     taken_on = models.DateTimeField()
 
     def shoot(self):
-
-        self
 
         # sleep for 10 seconds to delay capturing
         time.sleep(10)
