@@ -27,6 +27,10 @@ class ConfigHelper:
     
     
     def GetConfig(self):
+
+        if Config.objects.count() == 0:
+            Config.objects.create()
+
         config = Config.objects.all().first()
         return config
     

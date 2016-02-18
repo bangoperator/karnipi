@@ -14,7 +14,7 @@ def index(request):
     status_overview = MainHelper().get_status_overview()
     config = ConfigHelper().GetConfig()
 
-    file_object = open('/home/pi/karnipi/main/logging/karnipi.log', 'r')
+    file_object = open(settings.BASE_DIR + '/main/logging/karnipi.log', 'r')
     log = file_object.read()
     file_object.close()
 

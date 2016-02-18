@@ -28,6 +28,7 @@ def index(request):
     heater = None
     fogger = None
     fan = None
+    sprinkler = None
     sht21 = None
     status_overview = None
     maintenance = None
@@ -82,12 +83,16 @@ def jobs(request):
 
 def actors(request):
     config = ConfigHelper().GetConfig()
-    objects = config.terrarium.get_actors()
-    template = loader.get_template('config/actors.html')
-    context = RequestContext(request, {
-        'actors': objects,
-    })
-    return HttpResponse(template.render(context))
+
+    if config.terrarium is None:
+        raise Exception("No terrarium is configured. Please define a terrarium in configuration first!")
+    else:
+        objects = config.terrarium.get_actors()
+        template = loader.get_template('config/actors.html')
+        context = RequestContext(request, {
+            'actors': objects,
+        })
+        return HttpResponse(template.render(context))
 
 
 def sensors(request):
@@ -112,6 +117,7 @@ def maintenance(request):
         'status_overview': status_overview,
     })
     return HttpResponse(template.render(context))
+
 
 def delete_Terrarium(request):
     config = Config.objects.all().first()

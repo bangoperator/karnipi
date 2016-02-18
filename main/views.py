@@ -1,14 +1,13 @@
 from datetime import datetime
-from django.http import HttpResponse, HttpResponseRedirect
-from django.shortcuts import render_to_response
-from django import template
-from django.template import RequestContext, loader
-from django.contrib.auth import authenticate, login, logout
-from django.views.decorators.cache import never_cache
 
 from camera.models import Picture
-from terrarium.helper import TerrariumHelper
+from django.contrib.auth import authenticate, login, logout
+from django.http import HttpResponse, HttpResponseRedirect
+from django.shortcuts import render_to_response
+from django.template import RequestContext, loader
+from django.views.decorators.cache import never_cache
 from main.helper import MainHelper
+from terrarium.helper import TerrariumHelper
 
 
 def user_login(request):
@@ -101,8 +100,12 @@ def index(request):
     latest_log_data = mh.get_karnipi_log().filter(datetime__year=today.year,
                                                   datetime__month=today.month,
                                                   datetime__day=today.day).order_by('-datetime')
-												  
-    picture = Picture.objects.latest('taken_on')
+
+    picture = None
+
+    if Picture.objects.count() > 0:
+        picture = Picture.objects.latest('taken_on')
+
     status_overview = mh.get_status_overview()
 
     template = loader.get_template('main/index.html')
