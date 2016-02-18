@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load app_filters %}
+{% block title %}KarniPi - Aktor hinzufügen{% endblock %}
+{% block heading %}Aktor hinzufügen{% endblock %}
+{% block topnav %}
+{% endblock %}
+{% block content %}
+<form id="actor_form" method="post" action="/terrarium/add_actor/">
+
+    {% csrf_token %}
+    {{ form }}
+
+    <input type="submit" name="submit" value="Create Actor"/>
+</form>
+{% endblock %}

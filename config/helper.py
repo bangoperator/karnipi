@@ -1,8 +1,9 @@
-from config.models import Config
-from django.conf import settings
-from crontab import CronTab
-import os
 import getpass
+import os
+
+from crontab import CronTab
+
+from config.models import Config
 
 
 class ConfigHelper:
@@ -92,16 +93,16 @@ class ConfigHelper:
         # writes content to crontab
         tab.write()
 
-
-    def get_disk_space(self):
+    @staticmethod
+    def get_disk_space():
         stat = os.statvfs('/')
         size_mb = (stat.f_bsize * stat.f_bavail / 1024 / 1024)
-	return size_mb
+        return size_mb
 
-    def disk_usage(self):
-	st = os.statvfs('/')
-	free = st.f_bavail * st.f_frsize / 1024 / 1024
-	total = st.f_blocks * st.f_frsize / 1024 / 1024
-	used = ((st.f_blocks - st.f_bfree) * st.f_frsize) / 1024 / 1024
-	
-	return [used, free]
+    @staticmethod
+    def disk_usage():
+        st = os.statvfs('/')
+        free = st.f_bavail * st.f_frsize / 1024 / 1024
+        used = ((st.f_blocks - st.f_bfree) * st.f_frsize) / 1024 / 1024
+
+        return [used, free]

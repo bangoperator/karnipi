@@ -1,9 +1,4 @@
 # karnipi specific
-bin/
-include/
-lib/
-local/
-/local
 pip-selfcheck.json
 
 # Byte-compiled / optimized / DLL files
@@ -11,8 +6,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
-*.so
 
 # Distribution / packaging
 .Python
@@ -28,7 +21,6 @@ lib64/
 parts/
 sdist/
 var/
-*.egg-info/
 .installed.cfg
 *.egg
 
@@ -54,8 +46,10 @@ coverage.xml
 .hypothesis/
 
 # Translations
-*.mo
 *.pot
+/local
+/include
+/bin
 
 # Django stuff:
 *.log
